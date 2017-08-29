@@ -1,5 +1,6 @@
 package fruitbasket;
 
+
 /**
 * Ö÷Àà
 * Author: FruitBasket
@@ -9,6 +10,8 @@ package fruitbasket;
 */
 public class Main {
 	public static void main(String[] args) {
+		
+		fruitbasket.search.SearchTest.testBinarySearch();
 		
 	}
 }

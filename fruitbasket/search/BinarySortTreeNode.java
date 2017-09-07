@@ -7,8 +7,8 @@ package fruitbasket.search;
 * Email: FruitBasket@qq.com
 * Source code: github.com/Fruit-Basket
 */
-public class BinarySortTreeElement {
+public class BinarySortTreeNode {
 	public int key;//¹Ø¼ü×Ö
 	public String otherInfo;//ÆäËûÓò
-	public BinarySortTreeElement lChild,rChild;
+	public BinarySortTreeNode lChild,rChild;
 }

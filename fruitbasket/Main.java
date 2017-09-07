@@ -9,9 +9,12 @@ package fruitbasket;
 * Source code: github.com/Fruit-Basket
 */
 public class Main {
+	
+	public static final boolean IS_DEBUG=true;
+	
 	public static void main(String[] args) {
 		
-		fruitbasket.search.SearchTest.testBinarySearch();
+		fruitbasket.sort.SortTest.testStrightInsertionSort();
 		
 	}
 }

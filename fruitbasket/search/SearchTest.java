@@ -1,7 +1,7 @@
 package fruitbasket.search;
 
 /**
- *
+ * 查找算法测试
  * Author: FruitBasket
  * Time: 2017年8月28日
  * Email: FruitBasket@qq.com
@@ -51,7 +51,37 @@ public class SearchTest {
 	}
 	
 	public static void testBinarySortTree(){
+		BinarySortTreeNode[] nodes=new BinarySortTreeNode[10];
+		for(int i=0;i<nodes.length;++i){
+			nodes[i]=new BinarySortTreeNode();
+			nodes[i].key=i;
+		}
 		
+		BinarySortTree tree=new BinarySortTree();
+		tree.createTree(nodes);
+		tree.show();
+		
+		int key=-1;
+		System.out.print("delete "+key+": ");
+		tree.deleteNode(key);
+		tree.show();
+		
+		key=10;
+		System.out.print("delete "+key+": ");
+		tree.deleteNode(key);
+		tree.show();
+		
+		key=5;
+		System.out.print("delete "+key+": ");
+		tree.deleteNode(key);
+		tree.show();
+		
+		for(int i=0;i<nodes.length;++i){
+			key=i;
+			System.out.print("delete "+key+": ");
+			tree.deleteNode(key);
+			tree.show();
+		}
 	}
 
 }

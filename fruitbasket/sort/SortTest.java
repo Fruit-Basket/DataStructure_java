@@ -19,8 +19,11 @@ public class SortTest {
 	
 	public static void testStrightInsertionSort(){
 		int[] array={2,1,3,5,7,0,9,8,6,4};
+		System.out.println("直接插入排序：");
+		System.out.print("待排数组：");
 		showArray(array);
 		InsertionSort.straightInsertionSort(array);
+		System.out.print("结果：");
 		showArray(array);
 	}
 	

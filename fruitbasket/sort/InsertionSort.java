@@ -18,7 +18,7 @@ public class InsertionSort {
 	}
 	
 	/**
-	 * 直接插入排序
+	 * 直接插入排序：将未排序的，插入到已排序的数列中
 	 * @param array
 	 */
 	public static void straightInsertionSort(int[] array){
@@ -38,4 +38,7 @@ public class InsertionSort {
 			}
 		}
 	}
+	
+	
+	
 }
